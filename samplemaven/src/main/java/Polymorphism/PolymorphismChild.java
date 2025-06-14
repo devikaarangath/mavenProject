@@ -1,7 +1,7 @@
-package Polymorphism1;
+package Polymorphism;
 
-public class Polymorphism extends PolymorphismParentClass {
-	
+public class PolymorphismChild extends PolymorphismParent{
+
 	public void display()
 	{
 		super.display();  	//Method Overriding (super.parentClass Method is called here)
@@ -9,7 +9,7 @@ public class Polymorphism extends PolymorphismParentClass {
 	}
 
 	public static void main(String[] args) {
-		Polymorphism obj = new Polymorphism();
+		PolymorphismChild obj = new PolymorphismChild();
 		obj.display();
 	}
 
